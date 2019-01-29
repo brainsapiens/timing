@@ -1,0 +1,13 @@
+body.is-dragging {
+  cursor: grabbing;
+}
+
+body.is-dragging > li {
+  background-color: #dadada;
+  list-style: none;
+  transition: background-color .2s;
+}
+
+body.is-dragging .remove-btn {
+  visibility: hidden !important;
+}
