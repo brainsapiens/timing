@@ -1,7 +1,7 @@
-import React, { Component } from "react";
+import React, { PureComponent } from "react";
 import { connect } from "react-redux";
 
-class Title extends Component {
+class Title extends PureComponent {
   render() {
     document.title = this.props.store.title;
 

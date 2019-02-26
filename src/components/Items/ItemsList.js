@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { PureComponent } from "react";
 import { connect } from "react-redux";
 import { SortableContainer, SortableElement, SortableHandle, arrayMove } from 'react-sortable-hoc';
 import styled from "styled-components";
@@ -60,7 +60,7 @@ const SortableList = SortableContainer(({items}) => {
   );
 });
 
-class ItemsList extends Component {
+class ItemsList extends PureComponent {
   render() {
     return <SortableList
             items={this.props.store.items}

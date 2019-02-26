@@ -1,8 +1,8 @@
-import React, { Component } from "react";
+import React, { PureComponent } from "react";
 import { connect } from "react-redux";
 import CONFIG from '../config';
 
-class Clear extends Component {
+class Clear extends PureComponent {
   state = {
     isVisible: false
   };

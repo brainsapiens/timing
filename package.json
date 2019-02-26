@@ -1,6 +1,6 @@
 {
-  "name": "project_valuation",
-  "version": "0.1.0",
+  "name": "Timing",
+  "version": "0.2.0",
   "homepage": "https://brainsapiens.github.io/timing/",
   "private": true,
   "dependencies": {

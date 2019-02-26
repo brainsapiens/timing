@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { PureComponent } from "react";
 import { connect } from "react-redux";
 import styled from "styled-components";
 
@@ -6,7 +6,7 @@ const RemoveButton = styled.span`
   cursor: pointer;
 `;
 
-class RemoveItem extends Component {
+class RemoveItem extends PureComponent {
   render() {
     return (
       <RemoveButton

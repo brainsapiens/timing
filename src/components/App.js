@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { PureComponent } from "react";
 import styled from "styled-components";
 import Title from "./Title";
 import AddItem from "./Items/AddItem";
@@ -11,7 +11,7 @@ const Article = styled.article`
   min-height: 100vh;
 `;
 
-class App extends Component {
+class App extends PureComponent {
   render() {
     return (
       <div className="container">

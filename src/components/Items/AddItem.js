@@ -28,9 +28,7 @@ class AddItem extends Component {
 
   add = (e) => {
     if (e.key === undefined || e.key === "Enter") {
-      const type = this.type;
-      const title = this.title;
-      const time = this.time;
+      const {type, title, time} = this;
 
       // Validating form elements input
       if (type.options.selectedIndex === 0) {

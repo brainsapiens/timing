@@ -1,8 +1,8 @@
-import React, { Component } from "react";
+import React, { PureComponent } from "react";
 import RemoveItem from "./RemoveItem";
 import "mdi/css/materialdesignicons.css";
 
-class Item extends Component {
+class Item extends PureComponent {
   render() {
     return (
       <div className="row align-items-baseline">
